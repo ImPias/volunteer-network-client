@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const ShowRegisterdEvents = (props) => {
     const {eventPic, eventName, date, _id} = props.event;
     const handleDelete = id => {
-        fetch('http://localhost:5000/deleteEvent?id='+id, {
+        fetch('https://immense-wave-25437.herokuapp.com/deleteEvent?id='+id, {
             method: 'DELETE'
         })
         .then(res => res.json())
@@ -22,7 +22,7 @@ const ShowRegisterdEvents = (props) => {
                     <div className="card-body">
                         <h5 className="card-title">{eventName}</h5>
                         <p className="card-text">{date}</p>
-                        <Link to="/registerdEvents" onClick={() => handleDelete(_id)} className="btn btn-primary stretched-link">Cancel</Link>
+                        <Link to="/" onClick={() => handleDelete(_id)} className="btn btn-primary stretched-link">Cancel</Link>
                     </div>
                 </div>
             </div>

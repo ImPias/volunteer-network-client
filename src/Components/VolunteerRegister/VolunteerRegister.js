@@ -33,7 +33,7 @@ const VolunteerRegister = () => {
             description: description,
             date: selectedDate
         };
-        fetch('http://localhost:5000/newRegistration', {
+        fetch('https://immense-wave-25437.herokuapp.com/newRegistration', {
             method: "POST",
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(newReg)

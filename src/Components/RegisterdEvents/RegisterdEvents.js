@@ -9,7 +9,7 @@ const RegisterdEvents = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     const [events, setEvents] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/registerdEvents?email='+loggedInUser.email, {
+        fetch('https://immense-wave-25437.herokuapp.com/registerdEvents?email='+loggedInUser.email, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
