@@ -1,0 +1,14 @@
+.register-box{
+    margin: 0 auto;
+    height: 480px;
+    width: 600px;
+    border: 2px solid black;
+}
+.submit-btn{
+    width: 400px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+}
