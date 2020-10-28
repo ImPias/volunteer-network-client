@@ -5,23 +5,28 @@
 **[LIVE WEBSITE](https://volunteer-network-nongor-soft.web.app/)**
 
 ## Features:
-*   User can see volunteer event and they can register as a volunteer.
-*   User can see there all registered events and they can cancle their event.
+*   Users can see volunteer event.
+*   Users can participate in any events by registering as a volunteer.
+*   Users can see there all registered events.
+*   Users can cancel there registered events.
 *   Admin can add new events.
-*   Store all information.
-*   All registered volunteer information displayed in dashboard.
+*   Admin can see upcoming events and who are participating in those events.
+*   Admin can remove any volunteer from any events.
 
 ## Front-end Technology:
-*   React.js
+*   React
+*   React Router
 *   Material-UI
-*   Bootstrap4
-*   CSS3
+*   Bootstrap 4
+*   HTML, HTML5
+*   CSS, CSS3
+*   Firebase Hosting
 
 ## Back-end Technology:
 *   Node.js
 *   Express.js
 *   Firebase Authentication
 *   MongoDB
-*   Heroku
+*   Heroku Hosting
 
 **[BACK END REPOSITORY](https://github.com/ImPias/volunteer-network-server)**
