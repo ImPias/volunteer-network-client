@@ -1,4 +1,4 @@
-# VOLUNTEER Network – A Social Event Management Web App
+# VOLUNTEER NETWORK – A Social Event Management Web App
 
 ![volunteer](https://i.ibb.co/vJ36rM4/Group-1329.png)
 
